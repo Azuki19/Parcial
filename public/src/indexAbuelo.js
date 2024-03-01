@@ -13,6 +13,12 @@ connectedCallBack(){
 render(){
 this.shadowRoot.innerHTML = `<card-card>
 
+<section>
+<h1> BERSHKA </h1>
+</section>
+
+<h2>$Top Sellers</h2>
+
 <section class=> 
 <Image src = ${this.Image}></Image>
 <h2>${this.title}</h2>

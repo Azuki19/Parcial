@@ -8,7 +8,7 @@ class card extends HTMLElement {
 
 connectedCallBack(){
     this.render();
-}
+};
 
 static get observedAttributes(){
   return ['image','title', 'description', 'value','inStock','materials', 'sizesAvailable', 'brand','origin' ];
